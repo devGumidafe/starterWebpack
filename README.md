@@ -19,6 +19,7 @@ npm install
 - Mini-css-extract-plugin
 - Custom CSS
 - SASS
+- File-loader
 - Image-webpack-loader
 - React
 - React-DOM
@@ -39,6 +40,7 @@ npm install clean-webpack-plugin --save-dev
 npm install mini-css-extract-plugin --save-dev
 npm install sass sass-loader --save-dev
 npm install html-loader --save-dev
+npm install file-loader --save-dev
 npm install image-webpack-loader --save-dev
 npm install react react-dom --save
 npm install @babel/preset-react --save-dev
