@@ -63,6 +63,7 @@ module.exports = {
   entry: ["./index.jsx"],
   output: {
     filename: "[name].[chunkhash].js",
+     path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules,
