@@ -44,7 +44,6 @@ const rulesForCSS = {
 
 const rulesForImages = {
   test: /\.(png|svg|jpg|gif)$/i,
-  type: "./images",
   use: ["image-webpack-loader"],
 };
 
