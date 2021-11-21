@@ -5,7 +5,8 @@
   "main": "index.jsx",
   "scripts": {
     "start": "webpack serve --mode development",
-    "build": "webpack --mode development",
+    "build:dev": "webpack --mode development",
+    "build:pro": "webpack --mode production",
     "build:perf": "webpack --config webpack.perf.js --mode production"
   },
   "keywords": [],
