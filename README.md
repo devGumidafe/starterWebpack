@@ -48,6 +48,7 @@ npm install @babel/preset-react --save-dev
 npm install react-router-dom
 npm install webpack-bundle-analyzer --save-dev
 npm install --save prop-types
+npm install --save-dev @babel/plugin-transform-runtime
 ```
 
 ## Autor ✒️
