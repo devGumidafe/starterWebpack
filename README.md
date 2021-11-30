@@ -1,6 +1,6 @@
-# PASO A PASO WEBPACK
+# WEBPACK CON TYPESCRIPT
 
-Proyecto semilla con webpack V5 para React.
+Proyecto semilla con webpack V5 con soporte para React con Typescript.
 
 ## Comenzando 🚀
 
@@ -26,6 +26,8 @@ npm install
 - React-Router v6
 - Prop-types
 - Webpack-bundle-analyzer
+- Plugin-transform-runtime
+- Typescript
 
 ## Instalación paso a paso 🔧
 
@@ -49,6 +51,9 @@ npm install react-router-dom
 npm install webpack-bundle-analyzer --save-dev
 npm install --save prop-types
 npm install --save-dev @babel/plugin-transform-runtime
+npm install typescript --save-dev
+npm install @babel/preset-typescript --save-dev
+
 ```
 
 ## Autor ✒️

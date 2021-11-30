@@ -16,8 +16,8 @@ const rulesForHTML = {
   ],
 };
 
-const rulesForJSX = {
-  test: /\.jsx?$/i,
+const rulesForTSX = {
+  test: /\.tsx?$/i,
   exclude: /node_modules/,
   loader: "babel-loader",
 };
@@ -49,7 +49,7 @@ const rulesForImages = {
 
 const rules = [
   rulesForHTML,
-  rulesForJSX,
+  rulesForTSX,
   rulesForSASS,
   rulesForCSS,
   rulesForImages,
@@ -58,9 +58,9 @@ const rules = [
 module.exports = {
   context: path.join(__dirname, "src"),
   resolve: {
-    extensions: [".js", ".jsx"],
+    extensions: [".js",".ts", ".tsx"],
   },
-  entry: ["./index.jsx"],
+  entry: ["./index.tsx"],
   output: {
     filename: "[name].[chunkhash].js",
      path: path.resolve(__dirname, "dist"),
