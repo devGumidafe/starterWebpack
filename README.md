@@ -23,7 +23,6 @@ npm install
 - React
 - React-DOM
 - React-Router v6
-- Prop-types
 - Webpack-bundle-analyzer
 - Plugin-transform-runtime
 - Typescript
@@ -47,7 +46,6 @@ npm install react react-dom --save
 npm install @babel/preset-react --save-dev
 npm install react-router-dom
 npm install webpack-bundle-analyzer --save-dev
-npm install --save prop-types
 npm install --save-dev @babel/plugin-transform-runtime
 npm install typescript --save-dev
 npm install @babel/preset-typescript --save-dev
