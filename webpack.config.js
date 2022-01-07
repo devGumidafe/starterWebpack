@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
 
@@ -64,6 +63,7 @@ module.exports = {
   output: {
     filename: "[name].[chunkhash].js",
      path: path.resolve(__dirname, "dist"),
+     clean: true,
   },
   module: {
     rules,
@@ -76,8 +76,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "[name].[chunkhash].css",
-    }),
-    new CleanWebpackPlugin(),
+    })
   ],
   optimization: {
     runtimeChunk: "single",
