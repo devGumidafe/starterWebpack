@@ -15,7 +15,6 @@ npm install
 - Babel
 - Webpack-dev-server
 - Html-webpack-plugin
-- Clean-webpack-plugin
 - Mini-css-extract-plugin
 - Custom CSS
 - SASS
@@ -39,7 +38,6 @@ npm install babel-loader --save-dev
 npm install webpack-dev-server --save-dev
 npm install html-webpack-plugin --save-dev
 npm install style-loader css-loader --save-dev
-npm install clean-webpack-plugin --save-dev
 npm install mini-css-extract-plugin --save-dev
 npm install sass sass-loader --save-dev
 npm install html-loader --save-dev
